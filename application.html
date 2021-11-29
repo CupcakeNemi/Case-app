@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,27 @@
     <title>To do</title>
     <link rel="stylesheet" href="application.css">
 </head>
+
 <body>
     <!--! PLAN -->
     <!--? - be able to add things, with a checkbox  -->
     <!--? - be able to clear things -->
     <!--? - when checking the checkbox, the chore then get removed  -->
     <!--? - kms when nothing I want works (:  -->
-    
-    <script src="application.js"></script>
+
+
+
     <h1>To do</h1>
-    <label for="chore">Enter Chore</label>
-    <input type="text" id="chore">
+    <div class="content">
+        <input type="text" id="chore" placeholder="Add your chore here">
+        
+        <button id="add">Add</button>
+        
+        <div class="toDoList" id="listItems">
+
+        </div>
+    </div>
+    <script src="application.js"></script>
 </body>
+
 </html>
