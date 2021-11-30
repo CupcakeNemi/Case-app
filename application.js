@@ -41,8 +41,18 @@ addButton.addEventListener('click', function () {
     // remove by double click
     paraglider.addEventListener('dblclick', function() {
         listItems.removeChild(paraglider);
+        //* listItems.removeChild(btn);
     })
 
+    //! Remove on X (doesnt place where I want it (* = the conent))
+    //* let btn = document.createElement("button");
+    //* btn.innerHTML = "x";
+    //* listItems.appendChild(btn);
+
+    //* btn.addEventListener('click', function() {
+    //*     listItems.removeChild(paraglider);
+    //*     listItems.removeChild(btn);
+    //* })
 
 })
 
