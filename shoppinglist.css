@@ -1,6 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(wallpapersden.com_a-simple-gradient_2560x1440.jpg) ;
+}
+
 .pStyle {
     cursor: pointer;
     text-align: left;
     margin: 5px 10px;
 }
 
+h1 {
+    text-align: center;
+    margin: 2rem ;
+}
+
+.toDoList {
+    display: grid;
+}
+
+p {
+    margin-left: 10rem;
+    padding: 1rem 2rem;
+    grid-column-start: 1;
+}
+
+input {
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+    background-color: rgb(235, 235, 235); 
+    border: dotted gray 1px;
+    outline: none;
+    grid-template-columns: auto;
+    width: 200px;
+}
+
+.gridHelper {
+    
+    
+    grid-column-start: 2;
+}
+
+button {
+    width: 20px;
+}
+
+ul {
+    
+    padding: 0 2rem;
+    grid-column-start: 3;
+    padding: 3px 20px;
+    margin-right: 10rem;
+}
+
+/* Loads of colours */
+#firstColour, #firstDivColour,  #clean {
+    background-color: #FFF0F5;
+}
+
+#secondColour, #secondDivColour,  #fruit {
+    background-color: #F0FFF0;
+}
+
+#thirdColour, #thirdDivColour,  #blood {
+    background-color: #FFE4E1;
+}
+
+#fourthColour, #fourthDivColour,  #loaf {
+    background-color: #FAF0E6;
+}
+
+#fifthColour, #fifthDivColour,  #pasta {
+    background-color: #FDF5E6;
+}
+
+#sixthColour, #sixthDivColour,  #milk {
+    background-color: #F5F5F5;
+}
+
+#seventhColour, #seventhDivColour, #soda {
+    background-color: #F5F5DC;
+}
+
+#eighthColour, #eighthDivColour,  #chips {
+    background-color: #FFFFF0;
+}
+
+#ninthColour, #ninthDivColour,  #cold {
+    background-color: #F8F8FF;
+}
+
+#tenthColour, #tenthDivColour,  #candy {
+    background-color: #F0FFF0;
+}

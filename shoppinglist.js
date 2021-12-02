@@ -277,79 +277,9 @@ addSweets.addEventListener("click", function () {
 
 
 
-// addBtns.forEach(addButton => {
-//     addButton.addEventListener("click", function () {
-//         // console.log("event", event, event.parentElement);
-//         console.log("knapp", this, this.parentElement, this.parentElement.firstElementChild, this.parentElement.firstElementChild.value);
-
-//         let groceries = document.createElement('li');
-//         console.log("groceries", groceries);
-//         groceries.classList.add('pStyle')
-
-//         //*HYGENE
-//         // groceries.innerText = hygene.value;
-//         // clean.appendChild(groceries);
-//         // console.log("clean", clean);
-
-//         // if (addBtns.clicked ) {
-//         //     groceries.innerText = hygene.value;
-//         // clean.appendChild(groceries);
-//         // console.log("clean", clean);
-//         // } else {
-//         //     console.log("hygene else");
-//         // }
-
-//         // if (addBtns = greens) {
-//         //     groceries.innerText = document.getElementById("greens").value;
-//         // fruit.appendChild(groceries);
-
-//         // greens.value = "";
-//         // } else {
-//         //     console.log("green else");
-//         // }
-
-
-//         //* GREENS
-//         // groceries.innerText = document.getElementById("greens").value;
-//         // fruit.appendChild(groceries);
-
-//         // greens.value = "";
-
-//         // line through by click
-//         groceries.addEventListener("click", function () {
-//             groceries.style.textDecoration = "line-through";
-//         })
-
-//         // remove by double click
-//         groceries.addEventListener("dblclick", function () {
-//             fruit.removeChild(groceries);
-//             hygene.removeChild(groceries);
-//         })
-//     })
-// })
-
-// addBtns.forEach(addButton => {
-//     addButton.addEventListener("click", function () {
-//         // console.log("event", event, event.parentElement);
-//         console.log("knapp", this, this.parentElement, this.parentElement.firstElementChild, this.parentElement.firstElementChild.value);
-
-//         let groceries = document.createElement('li');
-//         console.log("groceries", groceries);
-//         groceries.classList.add('pStyle')
-
-//         //*HYGENE
-//         groceries.innerText = document.getElementById("clean").value;
-//         clean.appendChild(groceries);
-//         console.log("clean", clean);
-
-
-//     })
-// })
-
-// create the list
-// addBtns.addEventListener('click', function () {
-//     let groceries = document.createElement('li');
-//     groceries.classList.add('pStyle');
-//     groceries.innerText = listItems.value;
-//     listItems.appendChild(groceries);
-// })
+// Want to imply this function at some point
+ //! add on enter (not working)
+    // if (event.keycode === 13) {
+    //     event.preventDefault();
+    //     document.getElementById("myBtn").click();
+    // }
