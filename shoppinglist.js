@@ -47,6 +47,12 @@ let addSweets = document.getElementById("addSweets");
 
 //* Hygene
 addHygene.addEventListener("click", function () {
+    // The validation call
+    let food = addHygene.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -57,8 +63,11 @@ addHygene.addEventListener("click", function () {
     hygene.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -70,6 +79,12 @@ addHygene.addEventListener("click", function () {
 
 //* Greens
 addGreens.addEventListener("click", function () {
+    // The validation call
+    let food = addGreens.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -80,8 +95,11 @@ addGreens.addEventListener("click", function () {
     greens.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -93,6 +111,12 @@ addGreens.addEventListener("click", function () {
 
 //* Meat
 addMeat.addEventListener("click", function () {
+    // The validation call
+    let food = addMeat.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -103,8 +127,11 @@ addMeat.addEventListener("click", function () {
     meat.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -116,6 +143,12 @@ addMeat.addEventListener("click", function () {
 
 //* Bread
 addBread.addEventListener("click", function () {
+    // The validation call
+    let food = addBread.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -126,8 +159,11 @@ addBread.addEventListener("click", function () {
     bread.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -139,6 +175,12 @@ addBread.addEventListener("click", function () {
 
 //* Dry goods
 addDry.addEventListener("click", function () {
+    // The validation call
+    let food = addDry.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -149,8 +191,11 @@ addDry.addEventListener("click", function () {
     dry.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -162,6 +207,12 @@ addDry.addEventListener("click", function () {
 
 //* Dairy
 addDairy.addEventListener("click", function () {
+    // The validation call
+    let food = addDairy.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -172,8 +223,11 @@ addDairy.addEventListener("click", function () {
     dairy.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -185,6 +239,12 @@ addDairy.addEventListener("click", function () {
 
 //* Drinks
 addPop.addEventListener("click", function () {
+    // The validation call
+    let food = addPop.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -195,8 +255,11 @@ addPop.addEventListener("click", function () {
     pop.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -208,6 +271,12 @@ addPop.addEventListener("click", function () {
 
 //* Snacks
 addCrisps.addEventListener("click", function () {
+    // The validation call
+    let food = addCrisps.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -218,8 +287,11 @@ addCrisps.addEventListener("click", function () {
     crisps.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -231,6 +303,12 @@ addCrisps.addEventListener("click", function () {
 
 //* Frozen
 addFrozen.addEventListener("click", function () {
+    // The validation call
+    let food = addFrozen.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -241,8 +319,11 @@ addFrozen.addEventListener("click", function () {
     frozen.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -254,6 +335,12 @@ addFrozen.addEventListener("click", function () {
 
 //* Sweets
 addSweets.addEventListener("click", function () {
+    // The validation call
+    let food = addSweets.previousElementSibling.value;
+    if (!check(food)) {
+        return
+    }
+
     let groceries = document.createElement('li');
     groceries.classList.add('pStyle')
 
@@ -264,8 +351,11 @@ addSweets.addEventListener("click", function () {
     sweets.value = "";
 
     // line through by click
-    groceries.addEventListener('click', function () {
-        groceries.style.textDecoration = "line-through";
+    groceries.addEventListener('click', function (event) {
+        if (event.target.className === "pStyle" || event.target.className === "pStyle highlight") {
+            event.target.classList.toggle("highlight")
+
+        }
     })
 
     // remove by double click
@@ -276,10 +366,61 @@ addSweets.addEventListener("click", function () {
 })
 
 
+// The validation
+function check(food) {
+    if (food.length > 1) {
+        console.log("japp");
+        return true
+    } else {
+        console.log("nope");
+        return false
+    }
+}
+
+
+
+
+
+//!Implement Move for just your store
+// document.getElementById("sorting").addEventListener("click", function (event) {
+//     if (event.target.className === 'upp') {
+//         flytta('upp', event.target.parentElement)
+//     }
+//     else if (event.target.className === 'ner') {
+//         flytta('ner', event.target.parentElement)
+//     }
+//     else {
+//         // ingenting
+//     }
+// })
+
+// function flytta(riktning, elementAttFlytta) {
+//     let allaListItems = document.getElementsByClassName("element")
+//     let vilkenPlats
+
+//     for (let i = 0; i < allaListItems.length; i++) {
+
+//         if (elementAttFlytta === allaListItems[i]) {
+//             if (riktning === 'upp') {
+//                 vilkenPlats = i - 1
+//             }
+//             else {
+//                 vilkenPlats = i + 2
+//             }
+//         }
+//         else {
+//             // ingenting
+//         }
+//     }
+
+//     document.getElementById("sorting").insertBefore(elementAttFlytta, allaListItems[vilkenPlats])
+// }
+
+
 
 // Want to imply this function at some point
- //! add on enter (not working)
-    // if (event.keycode === 13) {
-    //     event.preventDefault();
-    //     document.getElementById("myBtn").click();
-    // }
+//! add on enter (not working)
+// if (event.keycode === 13) {
+//     event.preventDefault();
+//     document.getElementById("myBtn").click();
+// }

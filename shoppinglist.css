@@ -13,6 +13,10 @@ body {
     margin: 5px 10px;
 }
 
+.highlight {
+    text-decoration: line-through;
+}
+
 h1 {
     text-align: center;
     margin: 2rem ;
